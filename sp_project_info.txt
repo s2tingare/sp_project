@@ -13,6 +13,8 @@
 8. AWS
 9. Android
 
+
+
 /************************************ SKILLS TO AQUIRE ************************************
  * This is a list of skills that are most desired in embedded systems feild. These skills 
  * will be learned while working on the project.
@@ -29,5 +31,18 @@
  * the project. 
  * Status: Draft
  *****************************************************************************************/
-To create a Linux based tool that runs on Raspberry-Pi, to connect to a vehicle and send vehicle information to an Android based mobile app over internet and bluetooth.
+To create a Linux based tool that runs on Raspberry-Pi, to connect to a vehicle and send 
+vehicle information to an Android based mobile app over internet and bluetooth.
 
+
+
+/*********************************** ADDITIONAL ASPECTS ***********************************
+ * These are the additional aspects of the project not mentioned in the problem statement.  
+ * Status: Draft
+ *****************************************************************************************/
+1. Vehicle bus is simulated on an Arduino device.
+2. An external CAN device is connected to Raspberry-Pi for it to be able to communicate on 
+   the vehicle bus.
+3. Android app will have an option to request vehicle data using a push of a button on the 
+   screen.
+4. 
