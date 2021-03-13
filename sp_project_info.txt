@@ -45,4 +45,24 @@ vehicle information to an Android based mobile app over internet and bluetooth.
    the vehicle bus.
 3. Android app will have an option to request vehicle data using a push of a button on the 
    screen.
-4. 
+4. The linux will be the latest version of Ubuntu supported on Raspberry Pi.
+
+
+/********************************** IMPLEMENTATION ROADMAP ********************************
+ * Lower level details of implementation.
+ * Status: Draft
+ *****************************************************************************************/
+ 1. Install linux on Raspberry-Pi using Pi imager method described at the link
+    https://www.raspberrypi.org/documentation/installation/installing-images/
+ 2. 
+
+
+/************************************** OPEN QUESTIONS ************************************
+ * Questions that need to be answered before proceeding with implementation.
+ * 
+ *****************************************************************************************/
+ 1. Identify the type of vehicle bus we plan to communicate with. Is it J1939? or any other
+    bus protocol that runs on CAN? Usually j1939 is used in trucks and not in cars
+ 2. Flavour of Linux to be used and version of the OS to be used on RPi need to be decided.
+ 3. Which level of Bluetooth services are we going to support?
+ 4. 
