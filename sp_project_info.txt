@@ -1,0 +1,74 @@
+/********************************* TECHNOLOGIES IN FOCUS **********************************
+ * This list consists of the technologies which are popular in the industry and which are 
+ * valueable for career. It is intended to incorporate all, or most of these into the  
+ * project. 
+ *****************************************************************************************/
+1. Linux hands on
+2. IOT (MQTT)
+3. CAN
+4. Bluetooth
+5. Python
+6. Machine Learning
+7. GPS
+8. AWS
+9. Android
+10. Jenkins
+
+
+
+/************************************ SKILLS TO AQUIRE ************************************
+ * This is a list of skills that are most desired in embedded systems feild. These skills 
+ * will be learned while working on the project.
+ *
+ *****************************************************************************************/
+1. Test automation using scripting
+2. Front end development
+3. Device Networking
+4. Cloud Computing
+5. Data Aquisition and Logging
+
+
+/************************************* PROJECT AIM ****************************************
+ * This is the high level problem statement of the project, outlining the major aspects of 
+ * the project. 
+ * Status: Draft
+ *****************************************************************************************/
+To create a Linux based tool that runs on Raspberry-Pi, to connect to a vehicle and send 
+vehicle information to an Android based mobile app over internet and bluetooth.
+
+
+
+/*********************************** ADDITIONAL ASPECTS ***********************************
+ * These are the additional aspects of the project not mentioned in the problem statement.  
+ * Status: Draft
+ *****************************************************************************************/
+1. Arduino based OBD-2 scanner
+2. Raspberry pi to acquire vehicle data from Arduino over Bluetooth
+3. Android app will have an option to request vehicle data using a push of a button on the 
+   screen.
+4. The linux will be the latest version of Ubuntu / Raspbian supported on Raspberry Pi.
+
+
+/********************************** IMPLEMENTATION ROADMAP ********************************
+ * Lower level details of implementation.
+ * Status: Draft
+ *****************************************************************************************/
+ 1. Install linux on Raspberry-Pi using Pi imager method described at the link
+    https://www.raspberrypi.org/documentation/installation/installing-images/
+ 2. OBD-2 implementation on Arduino with data transmission capability over Bluetooth
+ 3. User Interface on Raspberry pi (Ubuntu / Raspbian) for accessing vehicle data
+ 4. Android application on smartphone for accessing vehicle data
+ 5. Test automation and CI using python + Jenkins
+ 6. Data logging on cloud (AWS trial version for 1 year)
+
+
+/************************************** OPEN QUESTIONS ************************************
+ * Questions that need to be answered before proceeding with implementation.
+ * 
+ *****************************************************************************************/
+ 1. Identify the type of vehicle bus we plan to communicate with. Is it J1939? or any other
+    bus protocol that runs on CAN? Usually j1939 is used in trucks and not in cars
+    --- J1939 is not used in cars. So, communication would happend over CAN only.
+ 2. Flavour of Linux to be used and version of the OS to be used on RPi need to be decided.
+   --- I think any flavour and version can be used.
+ 3. Which level of Bluetooth services are we going to support?
