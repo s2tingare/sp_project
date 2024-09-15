@@ -31,7 +31,7 @@
 /************************************* PROJECT AIM ****************************************
  * This is the high level problem statement of the project, outlining the major aspects of 
  * the project. 
- * Status: Draft
+ * Status: Deep hybernation for next few years.
  *****************************************************************************************/
 To create a Linux based tool that runs on Raspberry-Pi, to connect to a vehicle and send 
 vehicle information to an Android based mobile app over internet and bluetooth.
